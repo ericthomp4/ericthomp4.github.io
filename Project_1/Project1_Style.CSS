@@ -1,13 +1,32 @@
 body {
-  background-color:#9A7B4F;
+  background-color:#997953;
 }
 
 h1 {
   font-family: 'Special Elite', cursive;
   font-size: 48px;
+  color: #472226;
+}
+
+h2 {
+  font-family: 'Special Elite', cursive;
+  font-size: 48px;
+  color:Black;
 }
 
 p {
   font-family: 'Open Sans Condensed', sans-serif;
   font-size: 24px;
+  color: #110e0f;
+}
+
+.jumbotron-fluid {
+  background-image: url(Coffee1.jpg);
+  background-size:auto;
+}
+
+a {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 24px;
+  color:#472226
 }

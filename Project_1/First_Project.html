@@ -11,11 +11,12 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="Project1_Style.CSS">
 
-    <title>Coffee Shop</title>
+    <title>Eric's Coffee Shop</title>
   </head>
   <body>
 
-    <ul class="nav nav-tabs justify-content-center" id="myTab" role="tablist">
+  <div class="container">
+    <ul class="nav nav-tabs" id="myTab" role="tablist">
       <li class="nav-item">
         <a class="nav-link active" id="Home-tab" data-toggle="tab" href="#Home" role="tab" aria-controls="home" aria-selected="true">Home</a>
       </li>
@@ -32,69 +33,45 @@
         <a class="nav-link" id="Contact_Us-tab" data-toggle="tab" href="#Contact_Us" role="tab" aria-controls="Contact_Us" aria-selected="false">Contact Us</a>
       </li>
     </ul>
+  </div>
 
   <!-- Home Tab -->
     <div class="tab-content" id="myTabContent">
       <div class="tab-pane fade show active" id="Home" role="tabpanel" aria-labelledby="home-tab">
-        <div class="container-fluid">
+        <div class="jumbotron jumbotron-fluid">
+          <div class="container text-center">
+            <h2>Welcome to Eric's Coffee Shop!</h2>
+          </div>
+        </div>
+        <div class="container">
           <div class="row">
-            <div class="col-md-6 text-center">
-              <img src="Coffee1.jpg" alt="Coffee">
-            </div>
-            <div class="col-md-6 text-center">
-              <img src="Coffee1.jpg" alt="Coffee">
+            <div class="col-sm-12 text-center">
+              <h1>Home</h1>
             </div>
           </div>
         </div>
         <div class="container">
           <div class="row">
-            <div class="col-md-12 text-center">
-              <h1>Welcome to Our Coffee Shop!</h1>
-            </div>
-          </div>
-        </div>
-        <div class="container">
-          <div class="row">
-            <div class="col-md-12 text-center">
+            <div class="col-sm-12 text-center">
               <p>Our Cafe was created by the owners of Mobirise eCommerce Website Builder to bring endeavor ready clients, locals, and travelers a truly unique coffee experience.</p>
             </div>
           </div>
         </div>
         <div class="container">
           <div class="row">
-            <div class="col-md-4 text-center">
-              <img src="drinker1.jpg" alt="drinker1">
-            </div>
-            <div class="col-md-4 text-center">
-              <img src="drinker1.jpg" alt="drinker1">
-            </div>
-            <div class="col-md-4 text-center">
-              <img src="drinker1.jpg" alt="drinker1">
-            </div>
-          </div>
-        </div>
-        <div class="container">
-          <div class="row">
-            <div class="col-md-4">
+            <div class="col-sm-4 text-center">
+              <img src="drinker1.jpg" class="img-fluid" alt="drinker1">
               <p>This coffee was amazing! The best coffee that I have had in my whole life! That is why I rate the coffee 5/5 stars. Great Coffee Shop!</p>
-            </div>
-            <div class="col-md-4">
-              <p>This coffee was better than average. I was satisfied with my experience at the coffee shop. I will definitely be returning again soon!</p>
-            </div>
-            <div class="col-md-4">
-              <p>I thought the coffee was superb. I would almost call it perfect, that is why I gave it 4/5 stars. I will definitely be returning back soon!</p>
-            </div>
-          </div>
-        </div>
-        <div class="container">
-          <div class="row">
-            <div class="col-md-4 text-center">
               <p>⭑⭑⭑⭑⭑</p>
             </div>
-            <div class="col-md-4 text-center">
+            <div class="col-sm-4 text-center">
+              <img src="drinker2.jpg" class="img-fluid" alt="drinker2">
+              <p>This coffee was average. I was satisfied with my experience at the coffee shop. I will definitely be returning again soon!</p>
               <p>⭑⭑⭑⭒⭒</p>
             </div>
-            <div class="col-md-4 text-center">
+            <div class="col-sm-4 text-center">
+              <img src="drinker3.jpg" class="img-fluid" alt="drinker3">
+              <p>I thought the coffee was superb. I would almost call it perfect, that is why I gave it 4/5 stars. I will definitely be returning back soon!</p>
               <p>⭑⭑⭑⭑⭒</p>
             </div>
           </div>
@@ -103,72 +80,43 @@
 
     <!-- Menu Tab -->
       <div class="tab-pane fade" id="Menu" role="tabpanel" aria-labelledby="Menu-tab">
-        <div class="container-fluid">
-          <div class="row">
-            <div class="col-md-6 text-center">
-              <img src="Coffee1.jpg" alt="Coffee">
-            </div>
-            <div class="col-md-6 text-center">
-              <img src="Coffee1.jpg" alt="Coffee">
-            </div>
+        <div class="jumbotron jumbotron-fluid">
+          <div class="container text-center">
+            <h2>Welcome to Eric's Coffee Shop!</h2>
           </div>
         </div>
         <div class="container">
           <div class="row">
-            <div class="col-md-12 text-center">
+            <div class="col-sm-12 text-center">
               <h1>Menu</h1>
             </div>
           </div>
         </div>
         <div class="container">
           <div class="row">
-            <div class="col-md-4 text-center">
+            <div class="col-sm-6 text-center">
               <img src="latte.jpg" class="rounded-circle" alt="latte">
-            </div>
-            <div class="col-md-4">
               <p>This is our delicious new latte. It is made with espresso, steamed milk, and milk foam. Get yours today for the price of $4.44!</p>
+              <button type="button" class="btn btn-success">Buy Now</button>
             </div>
-            <div class="col-md-4 text-center">
-            <button type="button" class="btn btn-success">Buy Now</button>
+            <div class="col-sm-6 text-center">
+              <img src="mocha.jpg" class="rounded-circle" alt="mocha">
+              <p>This is our delicious new mocha. It is made with chocolate, steamed milk, and espresso. Get yours today for the price of $3.44!</p>
+              <button type="button" class="btn btn-success">Buy Now</button>
             </div>
           </div>
         </div>
         <div class="container">
           <div class="row">
-            <div class="col-md-4 text-center">
-              <img src="latte.jpg" class="rounded-circle" alt="latte">
+            <div class="col-sm-6 text-center">
+              <img src="shot.jpg" class="rounded-circle" alt="shot">
+              <p>This is our delicious new espresso shot. It is made with natural coffee beans. Get yours today for the price of $2.44!</p>
+              <button type="button" class="btn btn-success">Buy Now</button>
             </div>
-            <div class="col-md-4">
-              <p>This is our delicious new latte. It is made with espresso, steamed milk, and milk foam. Get yours today for the price of $4.44!</p>
-            </div>
-            <div class="col-md-4 text-center">
-            <button type="button" class="btn btn-success">Buy Now</button>
-            </div>
-          </div>
-        </div>
-        <div class="container">
-          <div class="row">
-            <div class="col-md-4 text-center">
-              <img src="latte.jpg" class="rounded-circle" alt="latte">
-            </div>
-            <div class="col-md-4">
-              <p>This is our delicious new latte. It is made with espresso, steamed milk, and milk foam. Get yours today for the price of $4.44!</p>
-            </div>
-            <div class="col-md-4 text-center">
-            <button type="button" class="btn btn-success">Buy Now</button>
-            </div>
-          </div>
-        </div>
-        <div class="container">
-          <div class="row">
-            <div class="col-md-4 text-center">
-              <img src="latte.jpg" class="rounded-circle" alt="latte">
-            </div>
-            <div class="col-md-4">
-              <p>This is our delicious new latte. It is made with espresso, steamed milk, and milk foam. Get yours today for the price of $4.44!</p>
-            </div>
-            <div class="col-md-4 text-center">
-            <button type="button" class="btn btn-success">Buy Now</button>
+            <div class="col-sm-6 text-center">
+              <img src="holiday.jpg" class="rounded-circle" alt="holiday">
+              <p>This is our delicious new holiday coffee. It is made with espresso, steamed milk, and candy cane. Get yours for the price of $8.44!</p>
+              <button type="button" class="btn btn-success">Buy Now</button>
             </div>
           </div>
         </div>
@@ -176,29 +124,24 @@
 
     <!-- About Us Tab -->
       <div class="tab-pane fade" id="About_Us" role="tabpanel" aria-labelledby="About_Us-tab">
-        <div class="container-fluid">
-          <div class="row">
-            <div class="col-md-6 text-center">
-              <img src="Coffee1.jpg" alt="Coffee">
-            </div>
-            <div class="col-md-6 text-center">
-              <img src="Coffee1.jpg" alt="Coffee">
-            </div>
+        <div class="jumbotron jumbotron-fluid">
+          <div class="container text-center">
+            <h2>Welcome to Eric's Coffee Shop!</h2>
           </div>
         </div>
         <div class="container">
           <div class="row">
-            <div class="col-md-12 text-center">
+            <div class="col-sm-12 text-center">
               <h1>About Us</h1>
             </div>
           </div>
         </div>
         <div class="container">
           <div class="row">
-            <div class="col-md-6 text-center">
+            <div class="col-sm-6 text-center">
               <img src="Location.jpg" alt="location">
             </div>
-            <div class="col-md-6">
+            <div class="col-sm-6">
               <p>Address</p>
               <p>1234 Street Name</p>
               <p>City, AA 99999</p>
@@ -211,17 +154,17 @@
         </div>
         <div class="container">
           <div class="row">
-            <div class="col-md-12 text-center">
+            <div class="col-sm-12 text-center">
               <h1>Hours</h1>
             </div>
           </div>
         </div>
         <div class="container">
           <div class="row">
-            <div class="col-md-6 text-center">
+            <div class="col-sm-6 text-center">
               <img src="calendar.jpg" alt="calendar">
             </div>
-            <div class="col-md-3">
+            <div class="col-sm-3">
               <p>Monday</p>
               <p>Tuesday</p>
               <p>Wednesday</p>
@@ -230,7 +173,7 @@
               <p>Saturday</p>
               <p>Sunday</p>
             </div>
-            <div class="col-md-3 text-right">
+            <div class="col-sm-3 text-right">
               <p>11:00-18:00</p>
               <p>11:00-18:00</p>
               <p>11:00-18:00</p>
@@ -245,51 +188,46 @@
 
     <!-- Our Team Tab -->
       <div class="tab-pane fade" id="Our_Team" role="tabpanel" aria-labelledby="Our_Team-tab">
-        <div class="container-fluid">
-          <div class="row">
-            <div class="col-md-6 text-center">
-              <img src="Coffee1.jpg" alt="Coffee">
-            </div>
-            <div class="col-md-6 text-center">
-              <img src="Coffee1.jpg" alt="Coffee">
-            </div>
+        <div class="jumbotron jumbotron-fluid">
+          <div class="container text-center">
+            <h2>Welcome to Eric's Coffee Shop!</h2>
           </div>
         </div>
         <div class="container">
           <div class="row">
-            <div class="col-md-12 text-center">
+            <div class="col-sm-12 text-center">
               <h1>Our Team</h1>
             </div>
           </div>
         </div>
         <div class="container">
           <div class="row">
-            <div class="col-md-4 text-center">
+            <div class="col-sm-4 text-center">
               <div class="card" style="width: 18rem;">
-                <img src="drinker1.jpg" class="card-img-top" alt="drinker1">
+                <img src="Alex.jpg" class="card-img-top" alt="Alex">
                 <div class="card-body">
-                  <h5 class="card-title">Employee #1</h5>
-                  <p class="card-text">This is where some text would go about this employee. It would introduce a little something about them.</p>
+                  <h5 class="card-title">Alex</h5>
+                  <p class="card-text">This is Alex the barista. He is a super cool guy. Makes great coffee!</p>
                   <a href="#" class="btn btn-primary">Learn More</a>
                 </div>
               </div>
             </div>
-            <div class="col-md-4 text-center">
+            <div class="col-sm-4 text-center">
               <div class="card" style="width: 18rem;">
-                <img src="drinker1.jpg" class="card-img-top" alt="drinker1">
+                <img src="Janet.jpg" class="card-img-top" alt="Janet">
                 <div class="card-body">
-                  <h5 class="card-title">Employee #2</h5>
-                  <p class="card-text">This is where some text would go about this employee. It would introduce a little something about them.</p>
+                  <h5 class="card-title">Janet</h5>
+                  <p class="card-text">This is Janet she does marketing. She makes the coffee seem super interesting!</p>
                   <a href="#" class="btn btn-primary">Learn More</a>
                 </div>
               </div>
             </div>
-            <div class="col-md-4 text-center">
+            <div class="col-sm-4 text-center">
               <div class="card" style="width: 18rem;">
-                <img src="drinker1.jpg" class="card-img-top" alt="drinker1">
+                <img src="Josh.jpg" class="card-img-top" alt="Josh">
                 <div class="card-body">
-                  <h5 class="card-title">Employee #3</h5>
-                  <p class="card-text">This is where some text would go about this employee. It would introduce a little something about them.</p>
+                  <h5 class="card-title">Josh</h5>
+                  <p class="card-text">Josh is the other barista. He brings smiles to all of the customers! Great guy!</p>
                   <a href="#" class="btn btn-primary">Learn More</a>
                 </div>
               </div>
@@ -298,7 +236,7 @@
         </div>
         <div class="container">
           <div class="row">
-            <div class="col-md-12 text-center">
+            <div class="col-sm-12 text-center">
               <p>We are proud of our coffee. There is nothing to write here, it is just needed to tasted...</p>
             </div>
           </div>
@@ -307,31 +245,25 @@
 
     <!-- Contact Us Tab -->
       <div class="tab-pane fade" id="Contact_Us" role="tabpanel" aria-labelledby="Contact_Us-tab">
-        <div class="container-fluid">
-          <div class="row">
-            <div class="col-md-6 text-center">
-              <img src="Coffee1.jpg" alt="Coffee">
-            </div>
-            <div class="col-md-6 text-center">
-              <img src="Coffee1.jpg" alt="Coffee">
-            </div>
+        <div class="jumbotron jumbotron-fluid">
+          <div class="container text-center">
+            <h2>Welcome to Eric's Coffee Shop!</h2>
           </div>
         </div>
         <div class="container">
           <div class="row">
-            <div class="col-md-12 text-center">
+            <div class="col-sm-12 text-center">
               <h1>Contact Us</h1>
             </div>
           </div>
         </div>
         <div class="container">
           <div class="row">
-            <div class="col-md-12">
+            <div class="col-sm-12">
               <form>
                 <div class="form-group">
                   <label for="exampleInputEmail1">Email address</label>
                   <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                  <small id="emailHelp" class="form-text text-muted">Send us an email, we would love to hear from our customers!</small>
                 </div>
                 <div class="form-group">
                   <label for="exampleInputPassword1">Message</label>
@@ -354,7 +286,7 @@
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/usm/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
   </body>
 </html>
