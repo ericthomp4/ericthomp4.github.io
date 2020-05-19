@@ -1,0 +1,51 @@
+h1 {
+  font-family: 'Fredericka the Great', cursive;
+  font-size: 80px;
+  color: White;
+
+}
+
+h2 {
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: White;
+}
+
+h3 {
+  font-family: 'Fredericka the Great', cursive;
+  color: #677479;
+}
+
+h4 {
+  font-family: 'Oswald', sans-serif;
+  color: #677479;
+}
+
+p {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 26px;
+  text-indent: 50px;
+  color: #677479;
+}
+
+.jumbotron-fluid {
+  background-color: #323d41;
+  background-size:auto;
+}
+
+.container-fluid {
+  background-color: #323d41;
+}
+
+.container {
+  padding-bottom: 25px;
+}
+
+a {
+  color:white;
+  font-size:36px;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+button {
+  font-family: 'Open Sans Condensed', sans-serif;
+}
